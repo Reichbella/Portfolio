@@ -252,3 +252,80 @@ button {
 button:hover {
   width: 160px;
 }
+
+@media screen and (max-width: 768px) {
+    header nav {
+      padding-top: 20px;
+      padding-left: 0px;
+      text-align: center;
+    }
+    header nav h2 {
+      margin-left: 0px;
+      margin-bottom: 20px;
+    }
+    header nav ul {
+      padding-left: 0;
+    }
+    header nav ul li {
+      display: block;
+      margin-bottom: 10px;
+    }
+    .info {
+      position: relative;
+      text-align: center;
+      padding-top: 50px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .info h4,
+    .info h1,
+    .info h4 {
+      margin: 10px 0;
+    }
+    .compte p {
+      margin-bottom: 5px;
+    }
+    .compte a {
+      font-size: 20px;
+      margin-right: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    header nav ul li a {
+      font-size: 16px;
+    }
+    .info h1 {
+      font-size: 30px;
+    }
+    .info h4 {
+      font-size: 16px;
+    }
+    .compte p {
+      font-size: 14px;
+    }
+    .compte a {
+      font-size: 18px;
+    }
+    .about .bio h2 {
+      font-size: 25px;
+    }
+    .about .bio h5 {
+      font-size: 14px;
+    }
+    .skills {
+      flex-direction: column;
+    }
+    .skills div {
+      margin-bottom: 20px;
+    }
+    .skills h3 {
+      margin-bottom: 10px;
+    }
+    .projet {
+      flex-direction: column;
+    }
+    .projet div {
+      margin-bottom: 40px;
+    }
+  }
