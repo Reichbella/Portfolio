@@ -1,0 +1,248 @@
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+    background-color: rgba(128, 128, 128, 0.69);
+}
+header{
+    width: 100%;
+    background-image: url(moi.avif);
+    background-size: cover;
+    height: 110vh;
+    background-position: center;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+header nav h2{
+    margin-left: 60px;
+    color: #fff;
+    font-size: 23px;
+}
+header nav h2 span{
+    
+    color: rgba(255, 0, 0, 0.621);
+    font-size: 23px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+}
+nav ul li a:hover{
+    color: brown;
+    transition: .4s;
+    font-size: 20px;
+}
+.info{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+div h4{
+    color: #fff;
+    font-size: 20px;
+}
+div h1{
+    color: #fff;
+    font-size: 50px;
+    margin: 20px 0px 25px;
+}
+
+/* A PROPOS */
+
+.moi{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgba(128, 128, 128, 0.69);
+}
+.about img{
+    width: 40%;
+    height: 500px;
+    border-radius: 200px;
+}
+.bio{
+    width: 650px;
+    margin-left: 40px;
+    
+}
+.bio H5{
+    text-align: justify;
+    font-size: 20px;
+    color: #fff;
+}
+.bio h2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.about{
+    width: 1000px;
+    max-width: 95%;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* COMPETENCES */
+
+.comp{
+    background-color: rgba(128, 128, 128, 0.69);
+    padding: 100px 0px;
+    height: 500px;
+}
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding-top: 20px;
+}
+.competences {
+    text-align: center;
+    font-size: 35px;
+    padding-top: 20px;
+}
+.skills img{
+    width: 32%;
+    height: 25px;
+}
+.skills p{
+    font-size: 13px;
+}
+
+/* PROJETS */
+
+.realisations{
+    background-color: rgba(128, 128, 128, 0.69);
+    height: 700px;
+    padding: 40px 0;
+}
+
+.realisations h1{
+    text-align: center;
+    font-size: 35px;
+    /* animation: clignoter 6s ; */
+}
+/* @keyframes clignoter {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  } */
+
+.projet{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.projet p{
+    text-align: justify;
+    padding: 7px;
+    color: #fff;
+    font-weight: bold
+}
+
+.projet img{
+    width: 80%;
+    height: 300px;
+    padding: 20px;
+    margin: 20px;
+}
+.pharmashop{
+    width: 30%;
+    height: 600px;
+    border: 1px solid #000;
+    margin: 5px;
+}
+.techmasters{
+    width: 30%;
+    height: 600px;
+    border: 1px solid #000;
+    margin: 5px;
+}
+.cesa{
+    width: 30%;
+    height: 600px;
+    border: 1px solid #000;
+    margin: 5px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: rgba(128, 128, 128, 0.69);
+    text-align: center;
+    padding: 100px 0px;
+    height: 580px;
+}
+footer h3, h4{
+    color: black;
+    padding-top: 30px;
+}
+footer h3{
+    font-size: 28px;
+}
+footer h4{
+    font-size: 22px;
+}
+footer .form{
+    padding: 15px;
+    width: 500px;
+    border-radius: 10px;
+    text-shadow: 10px 0 10px #000;
+    margin: auto;
+    background-color: gray;
+}
+.form input{
+    padding: 8px;
+    width: 300px;
+    border-radius: 7px;
+    border: none;
+    font-size: 18px;
+}
+textarea{
+    font-size: 18px;
+}
+.compte{
+    color: #fff;
+}
+.compte a{
+    font-size: 25px;
+}
+.compte a:hover{
+    font-size: 32px;
+}
+footer a{
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.6em;
+    color: #FFFAE1;
+}
+button{
+    width: 150px;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    width: 160px;
+    
+}
